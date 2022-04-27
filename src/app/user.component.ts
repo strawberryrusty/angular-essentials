@@ -3,11 +3,12 @@ import { Component } from "@angular/core";
 @Component({
   selector: 'app-user',
   template:
-  `<p>Hello</p>
+  `<p>Hello {{name}}!</p>
    <p>Hello</p>
-
-  `
+`
 })
 
-export class UserComponent {}
+export class UserComponent {
+  name = 'Prash';
+}
 
