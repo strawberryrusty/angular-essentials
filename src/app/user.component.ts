@@ -10,7 +10,7 @@ import { Component, Input } from "@angular/core";
 })
 
 export class UserComponent {
-  @Input() name = 'Prashanth';
+  @Input() name: any;
 
   onUserInput(event: any) {
     this.name = event.target.value;
