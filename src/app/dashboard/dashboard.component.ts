@@ -11,6 +11,4 @@ export class DashboardComponent {
   onSwitchState(){
     this.loadState = 'finished';
   }
-
-
 }
