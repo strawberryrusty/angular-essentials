@@ -9,6 +9,11 @@ export class AppComponent {
   title = 'angular-essentials';
   rootName = 'Prashanth R Mohan';
   rootItems = ['Apples', 'Oranges', 'Pears'];
+  number = 0;
+
+  onIncrease(){
+    this.number = this.number * 2;
+  }
 
   onNameChanged(newName : string){
     this.rootName = newName
@@ -19,4 +24,6 @@ export class AppComponent {
     this.rootItems.push(newItem);
     console.log(this.rootItems);
   }
+
+
 }
